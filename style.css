@@ -1,0 +1,409 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Roboto', sans-serif;*/
+
+.container
+{
+	max-width: 900px;
+	margin: 0 auto;
+}
+.header
+{
+	background-color:black;
+	height: 45px;
+	padding: 15px 0px;
+	position: fixed;
+	width: 100%;
+}
+.header span
+{
+	display: inline-block;
+}
+.header span h1
+{
+	color: orange;
+	
+}
+.header ul
+{
+	display: inline-block;
+	float: right;
+
+}
+.header ul li
+{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 20px;
+}
+.header ul li a
+{
+	text-decoration: none;
+	color:white;
+	font-size: 18;
+	font-family: 'Roboto', sans-serif;
+
+}
+.header ul li a:hover
+{
+	border-bottom: 1px solid white;
+
+}
+/*Newsletter section*/
+.newsletter
+{
+	text-align: center;
+	background-color: #f5f5f5;
+	padding:80px 0px;
+
+}
+
+.newsletter h1
+{
+	color: black;
+	font-size: 45px;
+	font-family:  'Roboto', sans-serif;
+	font-weight: 600px
+	/*text-align:center;*/
+	margin: 18px;
+	margin-top: 50px;
+}
+.newsletter p
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	margin-top:18px;
+	margin-bottom: 1.75em;
+	text-align: center;
+	line-height: 30px;
+	color: #6F6F6F;
+
+}
+form
+{
+	border-bottom: 40px;
+}
+.input1
+{
+	color: #666;
+	height: auto;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	font-size: 1em;
+	font-family: 'Montserrat', sans-serif;
+	padding: 15px;
+	width: 35%;
+}
+.input2
+{
+	color: #666;
+	height: auto;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	font-size: 1em;
+	font-family: 'Montserrat', sans-serif;
+	padding: 15px;
+	width: 35%;
+}
+.input3
+{
+	background-color: black;
+	height: auto;
+	border: 1px solid #ccc;
+	font-size: 1em;
+	font-family: 'Montserrat', sans-serif;
+	width: 20%;
+	padding: 15px;
+	border-radius: 3px;
+	color: white;
+}
+/*Contact section*/
+
+.contact
+{
+	background-color: #eeeeee;
+	text-align: center;
+	box-sizing: none;
+	padding: 40px 0px 180px 0px;
+
+}
+.contact h1
+{
+	color: black;
+	font-size: 45px;
+	font-family:  'Roboto', sans-serif;
+	font-weight: 600px
+	margin: 18px;
+	margin-top: 50px;
+}
+.contact p
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	margin-top:18px;
+	margin-bottom: 1.75em;
+	text-align: center;
+	line-height: 30px;
+	color: #6F6F6F;
+}
+.upper-side
+{
+	padding-bottom: 20px;
+}
+.upper-side .int-1
+{
+	font-size: 1em;
+	border-radius: 2px;
+	font-family: 'Montserrat', sans-serif;
+	border: 1px solid #ccc;
+	color: #666;
+	width: 45%;
+	padding: 15px;
+	margin-right: 5px;
+	background-color: #f8f8f8;
+
+}
+.upper-side .int-2
+{
+	font-size: 1em;
+	border-radius: 2px;
+	border: 1px solid #ccc;
+	color: #666;
+	width: 45%;
+	padding: 15px;
+	background-color: #f8f8f8;
+	margin-left: 5px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+.lower-side
+{
+	padding-bottom: 20px;
+}
+.lower-side .int-3
+{
+	font-size: 1em;
+	border-radius: 2px;
+	border: 1px solid #ccc;
+	color: #666;
+	width: 45%;
+	background-color: #f8f8f8;
+	padding: 15px;
+	margin-right: 5px;
+	font-family: 'Montserrat', sans-serif;
+}
+.lower-side .int-4
+{
+	font-size: 1em;
+	border-radius: 2px;
+	border: 1px solid #ccc;
+	font-family: 'Montserrat', sans-serif;
+	color: #666;
+	width: 45%;
+	padding: 15px;
+	margin-left: 5px;
+	background-color: #f8f8f8
+}
+textarea
+{
+	border: 1px solid #ccc;
+	font-family: 'Montserrat', sans-serif;
+	/*font-size: 1em;*/
+	border-radius: 2px;
+	width: 100%;
+  height: 200px;
+ 
+  text-align: left;
+
+  
+  background-color: #f8f8f8;
+  resize: none;
+}
+/*.btn
+{
+	width: 20%
+	background-color:black;
+	color: white;
+	font-size: 1em;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 2px;
+	border: none;
+
+
+}*/
+button
+{
+    width: 20%;
+    padding: 15px;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin: 20px 0px;
+    float: left;
+}
+
+/*Footer Style*/
+.footer-main
+{
+	background-color: black;
+	color: white;
+	padding: 60px 0px 0px 0px;
+}
+.footer-main .top
+{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid #3e3e3e;
+
+}
+.content
+{
+	margin-bottom: 20px;
+}
+.content p
+{
+	padding-bottom: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600px;
+	font-size: 18px;
+}
+.content ul li
+{
+	list-style-type: none;
+	padding: 5px 0px;
+
+}
+
+.content ul li a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	color: #cecece;
+}
+
+/*footer bottom*/
+.footer-main .bottom
+{
+	margin: 20px 0px;
+}
+
+.footer-main .bottom ul li
+{
+	list-style: none;
+	display: inline-block;
+}
+.footer-main .bottom ul li a
+{
+	text-decoration: none;
+	font-size: 15px;
+	/*font-family: 'Roboto', sans-serif;*/
+	padding: 5px;
+	border-right: 1px solid white;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	color: #cecece;
+
+}
+.last
+{
+	border: none !important;
+}
+.footer-main .bottom p
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #cecece;
+	padding: 20px 5px;
+
+}
+
+/*icon*/
+.icon ul li
+{
+	list-style: none;
+	margin: 5px 0px;
+}
+.icon ul li i
+{
+	background-color: black;
+	color: white;
+	line-height: 40px;
+	text-align: right;
+	padding: 0px 20px;
+	height: 40px;
+	width: 40px;
+}
+.fa-facebook
+{
+	position: fixed;
+    top: 25%;
+    left: -30px;
+    transition: 0.5s ease-in-out;*/
+}
+.fa-facebook:hover
+{
+	left: 0px;
+	transition: 0.5s ease-in-out;
+}
+.fa-instagram
+{
+	position: fixed;
+    top: 32%;
+    left: -30px;
+    transition: 0.5s ease-in-out;*/
+}
+.fa-instagram:hover
+{
+	left: 0px;
+	transition: 0.5s ease-in-out;
+}
+.fa-twitter
+{
+	position: fixed;
+    top: 39%;
+    left: -30px;
+    transition: 0.5s ease-in-out;*/
+}
+.fa-twitter:hover
+{
+	left: 0px;
+	transition: 0.5s ease-in-out;
+}
+.fa-github
+{
+	position: fixed;
+    top: 46%;
+    left: -30px;
+    transition: 0.5s ease-in-out;*/
+}
+.fa-github:hover
+{
+	left: 0px;
+	transition: 0.5s ease-in-out;
+}
+
+/*.slidebar ul li {
+    height: 30px;
+    width: 35px;
+    color: black;
+    background-color: #1DBF73;
+    line-height: 30px;
+    text-align: right;
+    padding: 0 15px;
+}
+.slidebar ul li {
+    list-style: none;
+}
+.item-1 {
+    position: fixed;
+    top: 25%;
+    left: -30px;
+    transition: 0.5s ease-in-out;*/
